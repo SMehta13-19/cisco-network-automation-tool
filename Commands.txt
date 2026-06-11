@@ -1,0 +1,28 @@
+# This is a comment - Lines starting with # are ignored
+# NTP Configuration
+ntp server 0.pool.ntp.org
+ntp server 1.pool.ntp.org
+
+# SNMP Configuration (Read-Only)
+snmp-server community MyReadOnlyCommunity RO
+
+# Interface Description Updates
+interface GigabitEthernet0/1
+description *** CONNECTION TO CORE SWITCH - DO NOT SHUTDOWN ***
+interface GigabitEthernet0/2
+description *** USER ACCESS PORT - VLAN 10 ***
+
+# Banner Configuration
+banner motd ^C
+Unauthorized access prohibited!
+All activities are monitored.
+^C
+
+# Logging Configuration
+logging buffered 16384
+logging console warning
+logging monitor notifications
+
+# Ensure NTP is enabled
+ntp source Loopback0
+ntp update-calendar

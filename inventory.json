@@ -1,0 +1,52 @@
+[
+    {
+        "host": "Core-Switch-01",
+        "ip": "192.168.1.1",
+        "username": "USERNAME",
+        "password": "PASSWORD",
+        "secret": "ENABLE_PASSWORD",
+        "device_type": "cisco_ios",
+        "port": 22,
+        "timeout": 30
+    },
+    {
+        "host": "Distribution-Switch-01",
+        "ip": "192.168.1.2",
+        "username": "USERNAME",
+        "password": "PASSWORD",
+        "secret": "ENABLE_PASSWORD",
+        "device_type": "cisco_ios",
+        "port": 22,
+        "timeout": 30
+    },
+    {
+        "host": "Access-Switch-01",
+        "ip": "192.168.1.3",
+        "username": "USERNAME",
+        "password": "PASSWORD",
+        "secret": "ENABLE_PASSWORD",
+        "device_type": "cisco_ios",
+        "port": 22,
+        "timeout": 30
+    },
+    {
+        "host": "Branch-Router-01",
+        "ip": "192.168.1.4",
+        "username": "USERNAME",
+        "password": "PASSWORD",
+        "secret": "ENABLE_PASSWORD",
+        "device_type": "cisco_ios",
+        "port": 22,
+        "timeout": 30
+    },
+    {
+        "host": "Edge-Router-01",
+        "ip": "192.168.1.5",
+        "username": "USERNAME",
+        "password": "PASSWORD",
+        "secret": "ENABLE_PASSWORD",
+        "device_type": "cisco_ios",
+        "port": 22,
+        "timeout": 30
+    }
+]
