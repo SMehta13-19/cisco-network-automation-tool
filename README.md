@@ -109,7 +109,6 @@ Logging & Reporting
 - ThreadPoolExecutor
 - JSON
 - Logging
-- NTC Templates
 
 ---
 
@@ -118,30 +117,48 @@ Logging & Reporting
 ```text
 cisco-network-automation-tool/
 │
+├── screenshots/
+│   ├── execution1.png
+│   ├── execution2.png
+│   ├── execution3.png
+│   ├── logs1.png
+│   ├── logs2.png
+│   ├── logs3.png
+│   └── structure.png
+│
+├── backups/
 ├── network_automation.py
 ├── inventory.json
 ├── commands.txt
 ├── requirements.txt
 ├── test_without_devices.py
 ├── README.md
-├── screenshots/
-│   ├── execution.png
-│   ├── logs.png
-│
-└── backups/
+└── .gitignore
 ```
+
 ---
+
 ## Demo
 
 ### Validation & Initialization
 
+Diagnostic mode validating file loading, script initialization, device inventory validation, command validation, concurrency configuration, and exception handling.
+
 ![Execution 1](screenshots/execution1.png)
+
+---
 
 ### Validation Summary & Simulation
 
+Validation summary demonstrating production-ready code structure verification and simulated Cisco device workflow.
+
 ![Execution 2](screenshots/execution2.png)
 
+---
+
 ### Expected Production Workflow
+
+Illustration of how the automation framework operates when connected to real Cisco IOS devices.
 
 ![Execution 3](screenshots/execution3.png)
 
@@ -149,21 +166,34 @@ cisco-network-automation-tool/
 
 ### Device Processing Logs
 
+Execution logs showing inventory loading, command processing, device handling, and automation workflow.
+
 ![Logs 1](screenshots/logs1.png)
+
+---
 
 ### Connection & Timeout Handling
 
+Demonstration of connection attempts, timeout detection, and troubleshooting information.
+
 ![Logs 2](screenshots/logs2.png)
 
+---
+
 ### Error Reporting & Summary
+
+Example error handling, device-level reporting, and execution summary generation.
 
 ![Logs 3](screenshots/logs3.png)
 
 ---
 
-### Project Structure
+### Repository Structure
 
-![Structure](screenshots/structure.png)
+Project organization and source code layout.
+
+![Project Structure](screenshots/structure.png)
+
 ---
 
 ## Installation
