@@ -133,47 +133,37 @@ cisco-network-automation-tool/
 ---
 ## Demo
 
-### Execution Output
+### Validation & Initialization
 
-Diagnostic mode validating script structure, file loading, concurrency, and error handling.
+![Execution 1](screenshots/execution1.png)
 
-#### Validation & Initialization
+### Validation Summary & Simulation
 
-![Execution 1](screenshots/execution - image 1.png)
+![Execution 2](screenshots/execution2.png)
 
-#### Validation Summary & Simulation
+### Expected Production Workflow
 
-![Execution 2](screenshots/execution - image 2.png)
-
-#### Expected Production Workflow
-
-![Execution 3](screenshots/execution - image 3.png)
+![Execution 3](screenshots/execution3.png)
 
 ---
 
-### Logging & Error Handling
+### Device Processing Logs
 
-Sample execution logs demonstrating device processing, connection attempts, and exception handling.
+![Logs 1](screenshots/logs1.png)
 
-#### Device Processing Logs
+### Connection & Timeout Handling
 
-![Logs 1](screenshots/logs - image 1.png)
+![Logs 2](screenshots/logs2.png)
 
-#### Connection & Timeout Handling
+### Error Reporting & Summary
 
-![Logs 2](screenshots/logs - image 2.png)
-
-#### Error Reporting & Summary
-
-![Logs 3](screenshots/logs - image 3.png)
+![Logs 3](screenshots/logs3.png)
 
 ---
 
 ### Project Structure
 
-Repository organization and source code layout.
-
-![Project Structure](screenshots/structure.png)
+![Structure](screenshots/structure.png)
 ---
 
 ## Installation
