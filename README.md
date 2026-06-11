@@ -130,7 +130,26 @@ cisco-network-automation-tool/
 │
 └── backups/
 ```
+---
+## Demo
 
+### Execution Output
+
+Demonstration of the automation framework validation and diagnostic mode.
+
+![Execution Output](screenshots/execution.png)
+
+### Logging & Error Handling
+
+Example execution logs showing device processing, connection attempts, and error handling.
+
+![Log Output](screenshots/logs.png)
+
+### Project Structure
+
+Repository organization and project files.
+
+![Project Structure](screenshots/structure.png)
 ---
 
 ## Installation
