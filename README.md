@@ -2,26 +2,71 @@
 
 ## Overview
 
-A Python-based Network Automation Tool built using Netmiko for managing Cisco IOS devices.
+A production-ready Network Automation Tool built using Python and Netmiko for Cisco IOS devices.
+
+The tool automates:
+
+- Configuration deployment
+- Device validation
+- Configuration backups
+- Error handling
+- Logging
+- Multi-device concurrent execution
 
 ## Features
 
-- Multi-device automation
-- SSH connectivity
-- Configuration deployment
-- Pre/Post validation
-- Configuration backup
-- Logging and error handling
-- Parallel execution using multithreading
+### Device Inventory Management
+
+- JSON-based inventory
+- Multi-device support
+- SSH-based access
+
+### Configuration Automation
+
+- Automated deployment of Cisco IOS commands
+- Batch configuration execution
+- Validation before and after deployment
+
+### Backup Management
+
+- Automatic running-config backup
+- Timestamped backup files
+- Local backup storage
+
+### Logging
+
+- Detailed execution logs
+- Error reporting
+- Device-level status tracking
+
+### Parallel Execution
+
+- ThreadPoolExecutor
+- Simultaneous execution on multiple devices
+- Improved deployment speed
 
 ## Technologies
 
 - Python
 - Netmiko
-- Cisco IOS
+- Paramiko
 - ThreadPoolExecutor
 - JSON
-- Logging
+- Cisco IOS
+
+## Project Structure
+
+```text
+cisco-network-automation-tool
+│
+├── network_automation.py
+├── inventory.json
+├── commands.txt
+├── requirements.txt
+├── test_without_devices.py
+├── README.md
+└── backups/
+```
 
 ## Installation
 
